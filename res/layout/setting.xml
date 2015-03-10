@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/ltgray">
+	<TextView 
+	android:id="@+id/textview_setting"
+	android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:textColor="@drawable/black"
+		android:textSize="30px" 
+		android:gravity="center_vertical|center_horizontal"
+		android:text="@string/setting">
+	</TextView>
+
+	<RadioGroup 
+		android:id="@+id/tip_radiogroup"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		>
+		<TextView 
+		android:id="@+id/textview_tip"
+		android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:textColor="@drawable/red"
+			android:textSize="25px" 
+			android:text="@string/radiobutton_tip">
+		</TextView>
+		<RadioButton 
+			android:id="@+id/sound_rb"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:textColor="@drawable/black"
+			android:textSize="25px" 
+			android:text="@string/radio_sound"
+			/>
+		<RadioButton 
+			android:id="@+id/vibrate_rb"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:textColor="@drawable/black"
+			android:textSize="25px" 
+			android:text="@string/radio_vibrate"
+			/>
+		<RadioButton 
+			android:id="@+id/none_rb"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"			
+			android:textColor="@drawable/black"
+			android:textSize="25px" 
+			android:text="@string/radio_none"
+			/>
+	</RadioGroup>
+
+	<RadioGroup 
+		android:id="@+id/pic_radiogroup"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		>
+		<TextView android:layout_width="wrap_content"
+		android:id="@+id/textview_pic"
+			android:layout_height="wrap_content" 
+			android:textColor="@drawable/red"
+			android:textSize="25px" 
+			android:text="@string/radiobutton_pic">
+		</TextView>
+		<RadioButton 
+			android:id="@+id/qqface_rb"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:textColor="@drawable/black"
+			android:textSize="25px" 
+			android:text="@string/radio_qqface"
+			/>
+		<RadioButton 
+			android:id="@+id/taoface_rb"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:textColor="@drawable/black"
+			android:textSize="25px" 
+			android:text="@string/radio_taoface"
+			/>
+	</RadioGroup>
+	
+		<RadioGroup 
+		android:id="@+id/gametype_radiogroup"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		>
+		<TextView android:layout_width="wrap_content"		
+		android:id="@+id/textview_gametype"
+			android:layout_height="wrap_content" 
+			android:textColor="@drawable/red"
+			android:textSize="25px" 
+			android:text="@string/radiobutton_gametype">
+		</TextView>
+		<RadioButton 
+			android:id="@+id/level_rb"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:textColor="@drawable/black"
+			android:textSize="25px" 
+			/>
+		<RadioButton 
+			android:id="@+id/score_rb"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:textColor="@drawable/black"
+			android:textSize="25px" 
+			/>
+	</RadioGroup>
+	
+	<Button
+	android:id="@+id/set_ok_btn"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textColor="@drawable/blue"
+	android:textSize="25px"
+	android:text="@string/set_sure"
+	android:gravity="center_vertical|center_horizontal"
+	>
+</Button>
+</LinearLayout>
+
+
+<!--
+
+			android:text="@string/radio_level"
+			android:text="@string/radio_score"
+			-->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setting">设置</string>
+    <string name="app_name">连连看</string>
+    <string name="app_title">连连看</string>
+    <string name="set_sure">确定</string>
+    <string name="radiobutton_tip">1.提示类型</string>
+    <string name="radio_sound">声音</string>
+    <string name="radio_vibrate">震动</string>
+    <string name="radio_none">无</string>
+    <string name="radiobutton_pic">2.图标选择</string>
+    <string name="radio_qqface">QQ头像</string>
+    <string name="radio_taoface">淘表情</string>
+    <string name="radiobutton_gametype">3.游戏模式</string>
+    <string name="radio_level">闯关模式</string>
+    <string name="radio_score">冲分模式</string>
+</resources>
